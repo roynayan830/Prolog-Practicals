@@ -1,3 +1,8 @@
+gorev:-
+	write('Enter a list: '),
+	read(L),
+	rev(L,R),
+	write('Reverse of '), write(L), write(' is '), write(R), nl.
 conc([],L,L).
 
 conc([H|T],L,[H|R]):-

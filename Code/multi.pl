@@ -1,0 +1,9 @@
+gomulti:-
+    write('Enter first number: '),
+    read(N1),
+    write('Enter second number: '),
+    read(N2),
+    multi(N1,N2,R),
+    write('Multiplication of '), write(N1), write(' and '), write(N2), write(' is '), write(R), nl.
+multi(N1,N2,R):-
+    R is N1*N2.

@@ -1,3 +1,8 @@
+gofact:-
+    write('Enter a number: '),
+    read(N),
+    fact(N,F),
+    write('Factorial of '), write(N), write(' is '), write(F), nl.
 fact(0,1).
 
 fact(N,F):-
